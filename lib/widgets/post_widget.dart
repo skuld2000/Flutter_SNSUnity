@@ -1,9 +1,10 @@
 import 'dart:math';
 
 import 'package:flutter/material.dart';
+import 'package:flutter_snsunity/widgets/comment_widget.dart';
 
-class HomeWidget extends StatelessWidget {
-  HomeWidget({super.key});
+class PostWidget extends StatelessWidget {
+  PostWidget({super.key});
 
   final List imgUrls = [
     'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSqJZHg4dAoVaUUWGh44kafY7g2yddK8c6SwQ&usqp=CAU',
@@ -55,21 +56,13 @@ class HomeWidget extends StatelessWidget {
     'https://thumb.mtstarnews.com/06/2023/08/2023081813164067550_1.jpg/dims/optimize',
     'https://newsimg-hams.hankookilbo.com/2021/11/24/91b824b9-c15e-4ceb-88bb-59126bc8b32b.png',
   ];
+
   @override
   Widget build(BuildContext context) {
-    return Container(
-      child: SingleChildScrollView(
-        child: Column(
-          children: List.generate(100, (index) {
-            return PostCard();
-          }),
-          //for (int i = 0; i < 5; ++i) PostCard(),
-        ),
-      ),
-    );
+    return buildPost(context);
   }
 
-  Widget PostCard() {
+  Widget buildPost(BuildContext context) {
     return Padding(
       padding: const EdgeInsets.all(8.0),
       child: Card(
@@ -100,7 +93,6 @@ class HomeWidget extends StatelessWidget {
                     Text("UserName",
                         style: TextStyle(fontWeight: FontWeight.bold)),
                     Text("2023/09/11"),
-                    Text("2023/09/11"),
                   ],
                 )
               ],
@@ -113,8 +105,6 @@ class HomeWidget extends StatelessWidget {
               //width: 300,
               //height: 300,
               fit: BoxFit.cover,
-              //"https://i.pinimg.com/736x/3f/9f/a7/3f9fa7705494a295eb47cb4d89de2f51.jpg",
-              //loadingBuilder: (context, ),
             ),
             SizedBox(
               height: 20,
@@ -129,7 +119,20 @@ class HomeWidget extends StatelessWidget {
                 SizedBox(
                   width: 10,
                 ),
-                Icon(Icons.chat),
+                IconButton(
+                    onPressed: () {
+                      showDialog(
+                          context: context,
+                          barrierDismissible: true, // 바깥 영역 터치시 닫을지 여부
+                          builder: (BuildContext context) {
+                            return AlertDialog(
+                              content: const CommentWidget(),
+                              insetPadding: const EdgeInsets.all(0),
+                              //contentPadding: const EdgeInsets.all(0),
+                            );
+                          });
+                    },
+                    icon: Icon(Icons.chat)),
                 Text("99"),
               ],
             ),

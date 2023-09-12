@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_snsunity/widgets/home_widget.dart';
+import 'package:flutter_snsunity/screen/home_screen.dart';
+import 'package:flutter_snsunity/widgets/post_widget.dart';
 
 void main() {
   runApp(const MyApp());
@@ -35,7 +36,7 @@ class _MyHomePageState extends State<MyHomePage> {
   Widget mainPages(int index) {
     switch (index) {
       case 0:
-        return HomeWidget();
+        return HomeScreen();
       case 1:
         return Text("Second");
       default:
