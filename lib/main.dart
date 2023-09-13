@@ -36,11 +36,11 @@ class _MyHomePageState extends State<MyHomePage> {
   Widget mainPages(int index) {
     switch (index) {
       case 0:
-        return HomeScreen();
+        return const HomeScreen();
       case 1:
-        return Text("Second");
+        return const Text("Second");
       default:
-        return Text("Others...");
+        return const Text("Others...");
     }
   }
 
@@ -62,27 +62,22 @@ class _MyHomePageState extends State<MyHomePage> {
             label: "Home",
           ),
           BottomNavigationBarItem(
-            icon: Icon(Icons.abc_outlined),
-            label: "ABC",
+            icon: Icon(Icons.accessibility_new),
+            label: "Unity",
           ),
           BottomNavigationBarItem(
             icon: Icon(Icons.search),
             label: "Search",
           ),
           BottomNavigationBarItem(
-            icon: Icon(Icons.search),
-            label: "Search",
-          ),
-          BottomNavigationBarItem(
-            icon: Icon(Icons.search),
-            label: "Search",
+            icon: Icon(Icons.settings),
+            label: "Setting",
           ),
         ],
         currentIndex: selectedIndex,
         selectedItemColor: Colors.green,
         unselectedItemColor: Colors.grey,
         onTap: (index) {
-          print(index);
           setState(() {
             selectedIndex = index;
           });

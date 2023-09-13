@@ -33,7 +33,7 @@ class CommentWidget extends StatelessWidget {
                   radius: 25,
                   backgroundColor: Colors.transparent,
                   backgroundImage: NetworkImage(
-                      'https://i.namu.wiki/i/IzZNZMwZo3_qZ1fAHJ6Iu05VMyHxwOuboM-UkIx_Ggtiu9es8sq96g67ojeh23qEw-hCI4oO2STMYhKK5Vi20w.webp'),
+                      'https://pbs.twimg.com/profile_images/1641335779988492289/87vOlW4O_400x400.jpg'),
                 ),
                 SizedBox(
                   width: 10,
@@ -69,7 +69,7 @@ class CommentWidget extends StatelessWidget {
             radius: 25,
             backgroundColor: Colors.transparent,
             backgroundImage: NetworkImage(
-                'https://i.namu.wiki/i/IzZNZMwZo3_qZ1fAHJ6Iu05VMyHxwOuboM-UkIx_Ggtiu9es8sq96g67ojeh23qEw-hCI4oO2STMYhKK5Vi20w.webp'),
+                'https://pbs.twimg.com/profile_images/1641335779988492289/87vOlW4O_400x400.jpg'),
           ),
           SizedBox(
             width: 10,

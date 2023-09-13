@@ -10,19 +10,29 @@ class PostWidget extends StatelessWidget {
     'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSqJZHg4dAoVaUUWGh44kafY7g2yddK8c6SwQ&usqp=CAU',
     'https://i.pinimg.com/736x/3f/9f/a7/3f9fa7705494a295eb47cb4d89de2f51.jpg',
     'https://i1.ruliweb.com/img/23/02/28/18694b521e957745d.png',
+    'https://img1.daumcdn.net/thumb/R800x0/?scode=mtistory2&fname=https%3A%2F%2Ft1.daumcdn.net%2Fcfile%2Ftistory%2F99DBD43F5B0057A020',
+    'https://post-phinf.pstatic.net/MjAyMDExMjRfMTk3/MDAxNjA2MjE2MTA3MzAy.wmlcqftASB7WqfVepCzyIDVK9xMMO9xz96YxbmZ6utYg.BkWNUKTVDR0Vpp0_2uFJ19i77aD5ILPPe06msrj1_3Ig.JPEG/2012_4660_5728.jpg?type=w800_q75',
     'https://i.pinimg.com/564x/25/2f/37/252f379316d5579d5e789af59ae71290.jpg',
     'https://img.wowtv.co.kr/wowtv_news/dnrs/20230503/2023050310412909722d3244b4fed182172185139.jpg',
     'https://img.etnews.com/news/article/2023/02/16/article_16105822087048.jpg',
     'https://cdn.pixabay.com/photo/2023/04/12/16/09/ai-generated-7920690_1280.jpg',
     'https://blog.kakaocdn.net/dn/c9odXo/btr4tijxs1A/dsfZl36LqLcNElfTgGa2Ek/img.png',
+    'https://img.mimint.co.kr/talk/bbs/2023/08/28/M2308280750400823.jpg',
     'https://i3.ruliweb.com/img/23/02/20/1866d62e85c4e2df2.png',
+    'https://i.pinimg.com/originals/87/b1/b7/87b1b7d2c55552ea3020a250ae6c2da9.jpg',
+    'https://blog.kakaocdn.net/dn/HHKQQ/btr1XynpVzN/kY251pY1MeQObOVxCbAqm1/img.png',
     'https://mblogthumb-phinf.pstatic.net/MjAxOTA4MTFfODAg/MDAxNTY1NTM0MDY2ODIy.yzJ7EqywBoc26ZG-fOezGSSCL8jSI57WLoxKk_pv60Ig.xJ_No5PLymVJAdkKqg2JEqNzN_pFZjfJpzdavrVVQc8g.JPEG.rkdrmsals111/MV5BOGFjYWNkMTMtMTg1ZC00Y2I4LTg0ZTYtN2ZlMzI4MGQwNzg4XkEyXkFqcGdeQXVyMTkxNjUy.jpg?type=w800',
     'https://www.francezone.com/xe/files/attach/images/131/899/197/002/4d693bac9d86eee5459e677a241c9dd9.jpg',
     'https://newsimg-hams.hankookilbo.com/2023/07/07/584d0f73-9fc2-43df-8e23-5fd106b2103b.jpg',
     'https://i3.ruliweb.com/img/22/10/07/183ae9566441e6f7a.png',
+    'https://image-cdn.hypb.st/https%3A%2F%2Fkr.hypebeast.com%2Ffiles%2F2023%2F03%2Fdemon-slayer-season-3-trailer-poster-anime-ft.jpg?fit=max&cbr=1&q=90&w=750&h=500',
+    'https://upload3.inven.co.kr/upload/2023/02/03/bbs/i15377343752.jpg?MW=800',
     'https://img1.daumcdn.net/thumb/R800x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FdvMZRl%2FbtrZ5jGyOKO%2FajjEeZGDBybyfKvlK8KK51%2Fimg.jpg',
     'https://i.pinimg.com/736x/47/a2/00/47a200bfdff7f665e04ee3d567d65ae2.jpg',
     'https://cdn.wujiebantu.com/ai/2A91FB618E2B8D7866B9CAE9EBFC5398-01.jpg',
+    'https://cdn.ppomppu.co.kr/zboard/data3/2023/0330/20230330153043_hQljSxGBLe.png',
+    'https://www.alphacrewz.com/img/og.png',
+    'https://d.line-scdn.net/stf/linecorp/ko/pr/acrzkr1.png',
     'https://blog.kakaocdn.net/dn/dbJ3va/btsddUOcDHa/rTiYjWCM3KXeg2KtC1x1V1/img.jpg',
     'https://img.allurekorea.com/allure/2023/04/style_643680916011c.jpg',
     'https://www.gunplancube.co.kr/data/goods/1/2021/03/2156_temp_16163271403263view.jpg',
@@ -36,7 +46,9 @@ class PostWidget extends StatelessWidget {
     'https://cdn.hankooki.com/news/photo/202303/66263_88287_1679805001.jpg',
     'https://t1.daumcdn.net/cafeattach/Uzlo/8c935cefdb12cd7f13dcd05653693bcaf24569f0',
     'https://i2.ruliweb.com/thumb/23/04/05/1874fa64a64570d28.jpg',
+    'https://tistory2.daumcdn.net/tistory/3738402/skinSetting/429823a08c4441938e1207d7516142a7',
     'https://wjdqhzld.com/wp-content/uploads/2023/02/AI-%EC%8B%A4%EC%82%AC-%EA%B7%B8%EB%A6%BC-1.jpg',
+    'https://file2.nocutnews.co.kr/newsroom/image/2020/03/06/20200306120731584353_0_710_530.jpg',
   ];
 
   final List thumbUrls = [
@@ -70,12 +82,12 @@ class PostWidget extends StatelessWidget {
         //surfaceTintColor: Colors.blue,
         child: Column(
           children: [
-            SizedBox(
+            const SizedBox(
               height: 10,
             ),
             Row(
               children: [
-                SizedBox(
+                const SizedBox(
                   width: 10,
                 ),
                 CircleAvatar(
@@ -84,10 +96,10 @@ class PostWidget extends StatelessWidget {
                   backgroundImage: NetworkImage(
                       thumbUrls[Random().nextInt(thumbUrls.length)]),
                 ),
-                SizedBox(
+                const SizedBox(
                   width: 10,
                 ),
-                Column(
+                const Column(
                   crossAxisAlignment: CrossAxisAlignment.start,
                   children: [
                     Text("UserName",
@@ -97,7 +109,7 @@ class PostWidget extends StatelessWidget {
                 )
               ],
             ),
-            SizedBox(
+            const SizedBox(
               height: 10,
             ),
             Image.network(
@@ -106,17 +118,17 @@ class PostWidget extends StatelessWidget {
               //height: 300,
               fit: BoxFit.cover,
             ),
-            SizedBox(
+            const SizedBox(
               height: 20,
             ),
             Row(
               children: [
-                SizedBox(
+                const SizedBox(
                   width: 10,
                 ),
-                Icon(Icons.favorite),
-                Text("100"),
-                SizedBox(
+                const Icon(Icons.favorite),
+                const Text("100"),
+                const SizedBox(
                   width: 10,
                 ),
                 IconButton(
@@ -125,18 +137,18 @@ class PostWidget extends StatelessWidget {
                           context: context,
                           barrierDismissible: true, // 바깥 영역 터치시 닫을지 여부
                           builder: (BuildContext context) {
-                            return AlertDialog(
-                              content: const CommentWidget(),
-                              insetPadding: const EdgeInsets.all(0),
+                            return const AlertDialog(
+                              content: CommentWidget(),
+                              insetPadding: EdgeInsets.all(0),
                               //contentPadding: const EdgeInsets.all(0),
                             );
                           });
                     },
-                    icon: Icon(Icons.chat)),
-                Text("99"),
+                    icon: const Icon(Icons.chat)),
+                const Text("99"),
               ],
             ),
-            SizedBox(
+            const SizedBox(
               height: 10,
             ),
           ],
